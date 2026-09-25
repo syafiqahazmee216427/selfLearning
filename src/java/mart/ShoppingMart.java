@@ -16,7 +16,7 @@ public class ShoppingMart {
 
         double total = price*amount;
 
-        System.out.printf("You have bought %d %s(s) for RM%.2f%n", amount, item, total);
+        System.out.printf("You have bought %d %s(s) for RM%.2f\n", amount, item, total);
         scanner.close();
     }
 }
